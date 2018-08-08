@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/logoMlWarning"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/aptifi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/app_name"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This App Has Been Blocked!"
+        android:textColor="#e74c3c"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/socmed_dear"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        android:textStyle="bold|italic"
+        android:textColor="#1abc9c"
+        />
+
+    <TextView
+        android:id="@+id/warntime"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Anda telah membuka instagram sebanyak 18 kali dengan total 1 Jam 5 Menit"
+        android:textSize="12sp"
+        android:textColor="#e74c3c"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/socmed_kata"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/socmed_kata2"
+        android:textSize="15sp"
+        android:paddingTop="8dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/skripsi"
+        android:textSize="12sp"
+        android:textColor="#e74c3c"
+        android:paddingTop="7dp"
+        />
+
+    <Button
+        android:id="@+id/socmedwarningbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:theme="@style/AppTheme.Button"
+        android:text=" Keluar dan Taubat "
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/titlebar">
+        <TextView
+            android:id="@+id/index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="17sp"
+            android:textColor="#2ecc71"/>
+        <TextView
+            android:id="@+id/judul_df_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/judul"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/help_i"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+        </RelativeLayout>
+        <FrameLayout
+            android:id="@+id/fragmentArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/appbar"
+            android:layout_below="@+id/titlebar"
+            />
+
+    <LinearLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/border_shadow"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <ImageView
+            android:id="@+id/kunci"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/lock_btn"/>
+        <ImageView
+            android:id="@+id/bintang"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/star_btn"
+            android:layout_marginLeft="32dp"/>
+
+        <ImageView
+            android:id="@+id/hom"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_helper"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <ImageView
+            android:id="@+id/gear"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/setting_btn"
+            android:layout_marginRight="40dp"
+            android:focusable="true"/>
+
+        <ImageView
+            android:id="@+id/inf"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/info_btn"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

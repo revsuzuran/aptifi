@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AptiFi Beta</string>
+    <string name="key">aqil</string>
+    <string name="akses_desc">Aktifkan Setting Aksesibilitas ini agar aplikasi ApTifi bisa berjalan dengan lancar<center>\nCopyright@2017\nAqilPrakoso</center></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Coming Soon!</string>
+    <string name="judul">APTIFI</string>
+    <string name="alertPositif">Untuk Mengaktifkan Aplikasi APTIFI bisa berjalan, silahkan aktifkan fungsi accessibility</string>
+    <string name="alertNegatif">Untuk Menonaktifkan aplikasi APTIFI, anda harus menonaktifkannya fungsi accessibility</string>
+    <string name="str_info_judul">APTIFI (Alpha v0.5)</string>
+    <string name="str_info_desc">Aplikasi yang insyaallah akan mengubah dunia menjadi lebih baik. </string>
+    <string name="str_info_contact"><b>Contact</b></string>
+    <string name="str_info_credit"><b>Credits</b></string>
+    <string name="str_info_contact_data"> Email : admin@revapp.org\nSite : help.revapp.org\nFB : Fb.com/revsuzuran</string>
+    <string name="str_info_credit_data">Hamba Allah</string>
+    <string name="str_info_credit_data2">Allah SWT\nKedua Orang Tua\nDosen Pembibing\nUniversitas Muhammadiyah Sidoarjo\nA1 Tek. Informatika 2015\nwww.ahva.tk</string>
+    <string name="str_info_credit_data3">Himas Randhi\nMuhammad Amirulloh\nVicky Andrian Firmansyah</string>
+    <string name="socmed_kata">Cukup Stalkingnya! Lakukanlah aktifitas yang bermanfaat, Ingatlah : </string>
+    <string name="socmed_kata2">&quot;Orang Tuamu Harus Bahagia Di Masa \nTuanya dan Anak Istri Yang Juga \nHarus Bahagia Di Masa Depan!&quot;</string>
+    <string name="socmed_dear">Dear User..</string>
+    <string name="skripsi">*Oh iya, btw SKRIPSI apa kabar ?</string>
+</resources>
